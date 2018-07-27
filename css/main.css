@@ -1,0 +1,99 @@
+body {
+  padding-top: 22px;
+  margin: 0 auto;
+  max-width: 980px
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  min-width: 1024px;
+  background: rgba(0,0,0,0.8);
+  padding: .5px 0;
+  padding-right: 5em;
+  padding-left: 5em;
+  text-align: center;
+  font-size: 17px;
+  display: inline-block;
+  user-select: none;
+
+
+}
+nav ul {
+  padding: -14;
+}
+nav ul li {
+  color: white;
+  display: inline-block;
+/*   padding: 0 25px; */
+  width: 8%;
+}
+html {
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 106.25%;
+    quotes: "“" "”";
+}
+body {
+    min-width: 320px;
+}
+.xcontainer {
+  text-align: center;
+  background-color: white;
+  padding-top: 50px;
+  height: 400px;
+/*   margin-top: 100px; */
+  background-image: url('https://www.apple.com/v/iphone-x/e/images/meta/og.png?201803282153');
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  display:block;
+  border-image-width: %;
+}
+
+.ipadcontainer {
+ border:0px;
+ text-align: center;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+}
+}
+.main {
+    position: relative;
+    max-width: 5px;
+    margin: 0 auto;
+}
+
+.small {
+  text-align: center;
+  background-color: white;
+  height: 400px;
+  display: inline-block;
+  width: 50%;
+  padding-top: 50px;
+  background-image: url("htstps://www.apple.com/v/home/dq/images/promos/product_red_small_2x.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#small-two {
+  background-image: url("https://www.apple.com/v/home/dq/images/promos/ios_small_2x.jpg");
+}
+
+.big h1, .small h1 {
+  margin-top: 0;
+}
+
+footer > ul {
+  display: inline-block;
+  list-style-type: none;
+}
+footer >ul ul {
+  margin-bottom: 15px;
+}
